@@ -1,0 +1,44 @@
+#form {
+    margin: 20px;
+}
+
+.products {
+    display: none; 
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgb(82, 16, 215);
+    border: 2px solid rgb(244, 245, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card img {
+    max-width: 80px;
+    height: auto;
+}
+
+
+.banner {
+    display: none; 
+    background-color: rgb(237, 253, 9);
+    color: rgb(19, 18, 17);
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.banner h2 {
+    font-weight: 900;
+    margin: 0;
+}
